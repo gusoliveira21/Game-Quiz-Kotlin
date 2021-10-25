@@ -15,17 +15,17 @@ class gameFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View? {
-        listener()
+        //listener()
         return binding.root
     }
 
-    fun listener() {
+    /*fun listener() {
         binding.btWin.setOnClickListener {
             it.findNavController().navigate(R.id.action_gameFragment_to_winFragment)
         }
         binding.btGameOver.setOnClickListener {
             it.findNavController().navigate(R.id.action_gameFragment_to_overFragment)
         }
-    }
+    }*/
 
 }
