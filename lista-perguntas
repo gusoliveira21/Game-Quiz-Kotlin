@@ -1,11 +1,11 @@
 [
   {
     "id": 0,
-    "pergunta": "Modelo de pergunta?!",
-    "qum": "opção um",
-    "qdois": "opção dois",
-    "qtres": "opção tres",
-    "quatro": "opção quatro",
-    "qcinco": "opção cinco",
+    "question": "Modelo de pergunta?!",
+    "topic_one": "opção um",
+    "topic_two": "opção dois",
+    "topic_three": "opção tres",
+    "topic_four": "opção quatro",
+    "topic_five": "opção cinco",
   },
 ]
