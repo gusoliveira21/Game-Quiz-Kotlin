@@ -1,4 +1,4 @@
-package com.gusoliveira21.gamequestionskotlin
+package com.gusoliveira21.gamequestionskotlin.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

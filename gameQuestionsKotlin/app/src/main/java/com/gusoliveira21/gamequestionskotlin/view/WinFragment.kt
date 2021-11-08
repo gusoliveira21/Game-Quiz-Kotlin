@@ -1,4 +1,4 @@
-package com.gusoliveira21.gamequestionskotlin
+package com.gusoliveira21.gamequestionskotlin.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
-import com.gusoliveira21.gamequestionskotlin.databinding.FragmentHomeBinding
+import com.gusoliveira21.gamequestionskotlin.R
 import com.gusoliveira21.gamequestionskotlin.databinding.FragmentWinBinding
 
 class winFragment : Fragment() {

@@ -1,10 +1,11 @@
-package com.gusoliveira21.gamequestionskotlin
+package com.gusoliveira21.gamequestionskotlin.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
+import com.gusoliveira21.gamequestionskotlin.R
 import com.gusoliveira21.gamequestionskotlin.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

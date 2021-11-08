@@ -1,10 +1,11 @@
-package com.gusoliveira21.gamequestionskotlin
+package com.gusoliveira21.gamequestionskotlin.view
 
 import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
+import com.gusoliveira21.gamequestionskotlin.R
 import com.gusoliveira21.gamequestionskotlin.databinding.FragmentHomeBinding
 
 class homeFragment : Fragment() {
