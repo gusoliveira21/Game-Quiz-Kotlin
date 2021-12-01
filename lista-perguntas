@@ -1,26 +1,73 @@
 [
   {
-    "question": "Modelo de pergunta Gustavo?!",
-    "topic_one": "opção one",
-    "topic_two": "opção two",
-    "topic_three": "opção three",
-    "topic_four": "opção four",
+    "question": "O que é o Android Jetpack?",
+    "topic_one": "Todos esses",
+    "topic_two": "Ferramentas",
+    "topic_three": "Documentação",
+    "topic_four": "Bibliotecas",
     "topic_five": "opção five"
   },
     {
-    "question": "Modelo de pergunta Uba Uba?!",
-    "topic_one": "opção um",
-    "topic_two": "opção dois",
-    "topic_three": "opção tres",
-    "topic_four": "opção quatro",
-    "topic_five": "opção cinco"
+    "question": "Qual é a classe base para layouts?",
+    "topic_one": "ViewGroup",
+    "topic_two": "ViewSet",
+    "topic_three": "ViewCollection",
+    "topic_four": "ViewRoot"
   },
     {
-    "question": "Modelo de pergunta Ethalele?!",
-    "topic_one": "opção I",
-    "topic_two": "opção II",
-    "topic_three": "opção III",
-    "topic_four": "opção IV",
-    "topic_five": "opção V"
+    "question": "Qual layout você usa para telas complexas?",
+    "topic_one": "ConstraintLayout",
+    "topic_two": "GridLayout",
+    "topic_three": "LinearLayout",
+    "topic_four": "FrameLayout"
+  },
+  {
+    "question": "O que você usa para inserir dados estruturados em um layout?",
+    "topic_one": "Data binding",
+    "topic_two": "Data pushing",
+    "topic_three": "Set text",
+    "topic_four": "Um método OnClick"
+  },
+    {
+    "question": "Que método você usa para inflar layouts em fragmentos?",
+    "topic_one": "onCreateView()",
+    "topic_two": "onActivityCreated()",
+    "topic_three": "onCreateLayout()",
+    "topic_four": "onInflateLayout()"
+  },
+    {
+    "question": "Qual é o sistema de construção para Android?",
+    "topic_one": "Gradle",
+    "topic_two": "Graddle",
+    "topic_three": "Grodle",
+    "topic_four": "Groyle"
+  },
+    {
+    "question": "Qual classe você usa para criar um drawable vetorial?",
+    "topic_one": "VectorDrawable",
+    "topic_two": "AndroidVectorDrawable",
+    "topic_three": "DrawableVector",
+    "topic_four": "AndroidVector"
+  },
+    {
+        "question": "Qual destes é um componente de navegação do Android?",
+        "topic_one":"NavController", 
+        "topic_two":"NavCentral", 
+        "topic_three":"NavMaster", 
+         "topic_four":"NavSwitcher"
+  },
+  {
+        "question": "Qual elemento XML permite registrar uma atividade com a atividade do iniciador?",
+        "topic_one":"intent-filter", 
+        "topic_two":"app-registry", 
+        "topic_three":"launcher-registry", 
+        "topic_four":"app-launcher"
+  },
+  {
+        "question": "O que você usa para marcar um layout para vinculação de dados?",
+        "topic_one":"<layout>", 
+        "topic_two":"<binding>", 
+        "topic_three":"<data-binding>", 
+        "topic_four":"<dbinding>"
   }
 ]
