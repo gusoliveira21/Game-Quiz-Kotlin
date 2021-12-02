@@ -3,8 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/gustavo/Documents/Studio/GitHub/Game-Quiz-Kotlin/gameQuestionsKotlin/app/src/main/res/drawable/arrow_play.xml" value="0.2203125" />
+        <entry key="..\:/Users/gustavo/Documents/Studio/GitHub/Game-Quiz-Kotlin/gameQuestionsKotlin/app/src/main/res/drawable/arrow_start.xml" value="0.3828125" />
+        <entry key="..\:/Users/gustavo/Documents/Studio/GitHub/Game-Quiz-Kotlin/gameQuestionsKotlin/app/src/main/res/drawable/background.xml" value="0.2203125" />
+        <entry key="..\:/Users/gustavo/Documents/Studio/GitHub/Game-Quiz-Kotlin/gameQuestionsKotlin/app/src/main/res/drawable/background_button.xml" value="0.2203125" />
+        <entry key="..\:/Users/gustavo/Documents/Studio/GitHub/Game-Quiz-Kotlin/gameQuestionsKotlin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/gustavo/Documents/Studio/GitHub/Game-Quiz-Kotlin/gameQuestionsKotlin/app/src/main/res/layout-v23/fragment_home.xml" value="0.1648148148148148" />
         <entry key="..\:/Users/gustavo/Documents/Studio/GitHub/Game-Quiz-Kotlin/gameQuestionsKotlin/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/gustavo/Documents/Studio/GitHub/Game-Quiz-Kotlin/gameQuestionsKotlin/app/src/main/res/layout/fragment_game.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/gustavo/Documents/Studio/GitHub/Game-Quiz-Kotlin/gameQuestionsKotlin/app/src/main/res/layout/fragment_about.xml" value="0.4083333333333333" />
+        <entry key="..\:/Users/gustavo/Documents/Studio/GitHub/Game-Quiz-Kotlin/gameQuestionsKotlin/app/src/main/res/layout/fragment_game.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/gustavo/Documents/Studio/GitHub/Game-Quiz-Kotlin/gameQuestionsKotlin/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/Users/gustavo/Documents/Studio/GitHub/Game-Quiz-Kotlin/gameQuestionsKotlin/app/src/main/res/layout/item_lista.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/gustavo/Documents/Studio/Testes/gameQuestionsKotlin/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/gustavo/Documents/Studio/Testes/gameQuestionsKotlin/app/src/main/res/layout/fragment_about.xml" value="0.36666666666666664" />

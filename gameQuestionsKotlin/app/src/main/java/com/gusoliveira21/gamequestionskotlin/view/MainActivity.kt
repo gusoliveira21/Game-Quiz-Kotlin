@@ -13,11 +13,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
         val navController = this.findNavController(R.id.navControlerID)
         NavigationUI.setupActionBarWithNavController(this, navController)
     }
-
-    override fun onNavigateUp(): Boolean {
+    override fun onSupportNavigateUp(): Boolean {
         val navController = this.findNavController(R.id.navControlerID)
         return navController.navigateUp()
     }

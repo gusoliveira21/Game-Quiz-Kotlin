@@ -2,4 +2,13 @@
     <string name="app_name">gameQuestionsKotlin</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="about_game">Quiz desenvolvido com o objetivo de testar o conhecimento sobre a linguagem Kotlin.</string>
+    <string name="about_tools">Para isso, foi utilizada a linguagem Kotlin no desenvolvimento do app e Retrofit para consumir dados de um serviço web!</string>
+    <string name="about_how_make_more_questions">Para sugerir mais questões, crie uma issue em: </string>
+    <string name="about_link_github">https://github.com/gusoliveira21/Game-Quiz-Kotlin/issues</string>
+
+
+
+
 </resources>

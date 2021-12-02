@@ -9,6 +9,6 @@ interface RetrofitService {
     //https://raw.githubusercontent.com/gusoliveira21/Game-Quiz-Kotlin/main/lista-perguntas.txt
 
     @GET("/gusoliveira21/Game-Quiz-Kotlin/main/lista-perguntas")
-    fun list():Call<List<QuestionsKotlin>>
+    fun list():Call<MutableList<QuestionsKotlin>>
 
 }

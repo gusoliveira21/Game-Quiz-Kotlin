@@ -9,7 +9,7 @@ import com.gusoliveira21.gamequestionskotlin.R
 import com.gusoliveira21.gamequestionskotlin.databinding.FragmentHomeBinding
 
 class homeFragment : Fragment() {
-    private val binding by lazy {FragmentHomeBinding.inflate(LayoutInflater.from(context))}
+    private val binding by lazy { FragmentHomeBinding.inflate(LayoutInflater.from(context)) }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?,
@@ -22,12 +22,13 @@ class homeFragment : Fragment() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.options_menu,menu)
+        inflater.inflate(R.menu.options_menu, menu)
         super.onCreateOptionsMenu(menu, inflater)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return NavigationUI.onNavDestinationSelected(item, requireView().findNavController() ) || super.onOptionsItemSelected(item)
+        return NavigationUI.onNavDestinationSelected(item, requireView().findNavController()) ||
+                super.onOptionsItemSelected(item)
     }
 
     private fun listeners() {
@@ -35,4 +36,6 @@ class homeFragment : Fragment() {
             it.findNavController().navigate(R.id.action_homeFragment_to_gameFragment)
         }
     }
+
+
 }
