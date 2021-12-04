@@ -1,14 +1,122 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
     <style name="Theme.GameQuestionsKotlin" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimaryVariant">@color/primaryColor</item>
-        <item name="colorOnPrimary">@color/primaryLightColor</item>
-        <item name="android:colorBackground">@color/primaryDarkColor</item>
-        <item name="textAppearanceBody1">@color/primaryTextColor</item>
-
-        <!-- Status bar color. -->
+        <item name="colorPrimaryVariant">@color/firstColorLight</item>
+        <item name="colorOnPrimary">@color/secondColorLight</item>
+        <item name="android:colorBackground">@color/thirdBackgroundColorLight</item>
+        <item name="textAppearanceBody1">@color/fourTextColorLight</item>
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
 
+    <style name="sobre_generico">
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">8sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/fourTextColorLight</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/eb_garamond</item>
+    </style>
+
+    <style name="game_points">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+    </style>
+
+    <style name="game_CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">230dp</item>
+        <item name="android:layout_margin">32dp</item>
+        <item name="android:backgroundTint">@color/secondColorLight</item>
+        <item name="cardCornerRadius">16dp</item>
+    </style>
+
+    <style name="game_text_question">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48sp</item>
+        <item name="android:textColor">@color/fourTextColorLight</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:fontFamily">@font/eb_garamond</item>
+    </style>
+
+    <style name="game_RadioButton_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48sp</item>
+        <item name="android:textColor">@color/fourTextColorLight</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:fontFamily">@font/eb_garamond</item>
+    </style>
+
+    <style name="game_button_submit">
+        <item name="android:layout_width">68dp</item>
+        <item name="android:layout_height">68dp</item>
+        <item name="android:layout_marginTop">32sp</item>
+        <item name="android:backgroundTint">@color/secondColorLight</item>
+        <item name="android:foreground">@drawable/check_answer</item>
+
+    </style>
+
+    <style name="over_text">
+        <item name="android:fontFamily">@font/eb_garamond</item>
+        <item name="android:textColor">@color/textGameOverColor</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/gameOver_text_to_show</item>
+        <item name="android:textSize">56sp</item>
+    </style>
+
+
+    <style name="over_button_to_home">
+        <item name="android:fontFamily">@font/eb_garamond</item>
+        <item name="android:layout_marginTop">488dp</item>
+        <item name="backgroundTint">@color/secondColorLight</item>
+        <item name="android:textColor">@color/fourTextColorLight</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/to_home</item>
+    </style>
+
+    <style name="over_button_try_again">
+        <item name="android:fontFamily">@font/eb_garamond</item>
+        <item name="backgroundTint">@color/secondColorLight</item>
+        <item name="android:textColor">@color/fourTextColorLight</item>
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/try_again</item>
+    </style>
+
+
+    <style name="win_text_press">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/win_text_to_press_the_windon</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/textWinnerColor</item>
+        <item name="android:fontFamily">@font/eb_garamond</item>
+    </style>
+
+    <style name="win_text_message">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/win_text_to_show</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">78sp</item>
+        <item name="android:fontFamily">@font/eb_garamond</item>
+        <item name="android:textColor">@color/textWinnerColor</item>
     </style>
 </resources>

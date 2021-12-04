@@ -20,7 +20,7 @@ class winFragment : Fragment() {
     }
 
     private fun listener(){
-        binding.tvWin.setOnClickListener {
+        binding.winTextMessage.setOnClickListener {
             it.findNavController().navigate(R.id.action_winFragment_to_homeFragment)
         }
     }

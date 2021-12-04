@@ -11,13 +11,14 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/tv_win"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:gravity="center"
-            android:text="Win!"
-            android:clickable="true"
-            android:textSize="56sp"
+            style="@style/win_text_press"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/win_text_message" />
+
+        <TextView
+            android:id="@+id/win_text_message"
+            style="@style/win_text_message"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

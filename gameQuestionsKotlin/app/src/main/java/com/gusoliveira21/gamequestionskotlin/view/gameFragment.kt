@@ -100,15 +100,15 @@ class gameFragment : Fragment() {
     fun verificaQuestaoCorreta(index: Int) {
         if (listOptionsRandom[index].equals(listOptionsOriginal[0])) {
             pontuacao++
-            binding.point.setText(pontuacao.toString())
             verificaPontuacao()
+            binding.point.setText(pontuacao.toString())
             questions_list.remove(objetoQuestion)
             showQuestions(questions_list)
             binding.radioGroup.clearCheck()
         } else {
             pontuacao--
-            binding.point.setText(pontuacao.toString())
             verificaPontuacao()
+            binding.point.setText(pontuacao.toString())
             showQuestions(questions_list)
             binding.radioGroup.clearCheck()
 

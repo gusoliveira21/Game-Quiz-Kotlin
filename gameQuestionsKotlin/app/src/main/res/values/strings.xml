@@ -7,8 +7,20 @@
     <string name="about_tools">Para isso, foi utilizada a linguagem Kotlin no desenvolvimento do app e Retrofit para consumir dados de um serviço web!</string>
     <string name="about_how_make_more_questions">Para sugerir mais questões, crie uma issue em: </string>
     <string name="about_link_github">https://github.com/gusoliveira21/Game-Quiz-Kotlin/issues</string>
+    <string name="try_again">Tentar novamente</string>
+    <string name="to_home">Início</string>
+    <string name="point3">3</string>
+    <string name="point_bar">/</string>
+    <string name="point0">0</string>
+    <string name="gameOver_text_to_show">Game Over!</string>
+    <string name="win_text_to_show">Win!</string>
+    <string name="win_text_to_press_the_windon">Click to return to top</string>
 
-
+    <string name="label_game_over">Game Over</string>
+    <string name="label_win">Winner</string>
+    <string name="label_game">Game</string>
+    <string name="label_home">Home</string>
+    <string name="label_about">About</string>
 
 
 </resources>
