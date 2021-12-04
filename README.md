@@ -43,7 +43,7 @@
 ## :bangbang: Dificuldades:
 Tive dificuldade em vários momentos, mas o principal foi adaptar a lista de objetos recebidos pelo Retrofit para que fossem identificados posteriormente as respostas corretas.
 
-<br><br><br>
+<br>
 
 ## ☕ Donation
 
