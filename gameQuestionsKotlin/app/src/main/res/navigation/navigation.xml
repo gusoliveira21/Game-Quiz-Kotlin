@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.gusoliveira21.gamequestionskotlin.view.homeFragment"
+        android:name="com.gusoliveira21.gamequestionskotlin.view.HomeFragment"
         android:label="@string/label_home"
         tools:layout="@layout/fragment_home">
         <action
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
-        android:name="com.gusoliveira21.gamequestionskotlin.view.gameFragment"
+        android:name="com.gusoliveira21.gamequestionskotlin.view.GameFragment"
         android:label="@string/label_game"
         tools:layout="@layout/fragment_game">
         <action
@@ -46,7 +46,7 @@
     </fragment>
     <fragment
         android:id="@+id/overFragment"
-        android:name="com.gusoliveira21.gamequestionskotlin.view.overFragment"
+        android:name="com.gusoliveira21.gamequestionskotlin.view.OverFragment"
         android:label="@string/label_game_over"
         tools:layout="@layout/fragment_over">
         <action

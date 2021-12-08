@@ -1,14 +1,18 @@
 package com.gusoliveira21.gamequestionskotlin.view
 
+import android.content.res.Configuration
+import android.content.res.Resources
 import android.os.Bundle
 import android.view.*
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.appcompat.widget.ThemeUtils
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.gusoliveira21.gamequestionskotlin.R
 import com.gusoliveira21.gamequestionskotlin.databinding.FragmentHomeBinding
 
-class homeFragment : Fragment() {
+class HomeFragment : Fragment() {
     private val binding by lazy { FragmentHomeBinding.inflate(LayoutInflater.from(context)) }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -37,5 +41,6 @@ class homeFragment : Fragment() {
         }
     }
 
+    }
 
-}
+

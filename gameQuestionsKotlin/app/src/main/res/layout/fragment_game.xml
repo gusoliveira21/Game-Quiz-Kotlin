@@ -2,9 +2,11 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:name=".MyActivity"
+    android:configChanges="uiMode"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.gameFragment">
+    tools:context=".view.GameFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -21,7 +23,7 @@
         <TextView
             android:id="@+id/point"
             style="@style/game_points"
-            android:text="@string/point0"
+            android:text="@string/point1"
             app:layout_constraintBottom_toBottomOf="@+id/textView3"
             app:layout_constraintEnd_toStartOf="@+id/textView3"
             app:layout_constraintHorizontal_chainStyle="packed"

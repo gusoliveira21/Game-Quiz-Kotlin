@@ -1,10 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="Theme.GameQuestionsKotlin" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <item name="colorPrimaryVariant">@color/firstColorLight</item>
-        <item name="colorOnPrimary">@color/secondColorLight</item>
-        <item name="android:colorBackground">@color/thirdBackgroundColorLight</item>
-        <item name="textAppearanceBody1">@color/fourTextColorLight</item>
+        <item name="colorPrimaryVariant">@color/secondColorNight</item>
+        <item name="colorOnPrimary">@color/firstColorNight</item>
+        <item name="android:colorBackground">@color/thirdBackgroundColorNight</item>
+        <item name="textAppearanceBody1">@color/fourTextColorNight</item>
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
     </style>
 
@@ -12,7 +12,7 @@
         <item name="android:textSize">20sp</item>
         <item name="android:padding">8sp</item>
         <item name="android:gravity">center</item>
-        <item name="android:textColor">@color/fourTextColorLight</item>
+        <item name="android:textColor">@color/fourTextColorNight</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:fontFamily">@font/eb_garamond</item>
@@ -31,7 +31,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">230dp</item>
         <item name="android:layout_margin">32dp</item>
-        <item name="android:backgroundTint">@color/secondColorLight</item>
+        <item name="android:backgroundTint">@color/firstColorNight</item>
         <item name="cardCornerRadius">16dp</item>
     </style>
 
@@ -39,7 +39,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">48sp</item>
-        <item name="android:textColor">@color/fourTextColorLight</item>
+        <item name="android:textColor">@color/fourTextColorNight</item>
         <item name="android:textSize">20sp</item>
         <item name="android:gravity">center</item>
         <item name="android:padding">8dp</item>
@@ -50,7 +50,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">48sp</item>
-        <item name="android:textColor">@color/fourTextColorLight</item>
+        <item name="android:textColor">@color/fourTextColorNight</item>
         <item name="android:textSize">20sp</item>
         <item name="android:gravity">center</item>
         <item name="android:padding">8dp</item>
@@ -61,9 +61,8 @@
         <item name="android:layout_width">68dp</item>
         <item name="android:layout_height">68dp</item>
         <item name="android:layout_marginTop">32sp</item>
-        <item name="android:backgroundTint">@color/secondColorLight</item>
+        <item name="android:backgroundTint">@color/firstColorNight</item>
         <item name="android:foreground">@drawable/check_answer</item>
-
     </style>
 
     <style name="over_text">
@@ -76,12 +75,11 @@
         <item name="android:textSize">56sp</item>
     </style>
 
-
     <style name="over_button_to_home">
         <item name="android:fontFamily">@font/eb_garamond</item>
         <item name="android:layout_marginTop">488dp</item>
-        <item name="backgroundTint">@color/secondColorLight</item>
-        <item name="android:textColor">@color/fourTextColorLight</item>
+        <item name="backgroundTint">@color/firstColorNight</item>
+        <item name="android:textColor">@color/fourTextColorNight</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:text">@string/to_home</item>
@@ -89,14 +87,13 @@
 
     <style name="over_button_try_again">
         <item name="android:fontFamily">@font/eb_garamond</item>
-        <item name="backgroundTint">@color/secondColorLight</item>
-        <item name="android:textColor">@color/fourTextColorLight</item>
+        <item name="backgroundTint">@color/firstColorNight</item>
+        <item name="android:textColor">@color/fourTextColorNight</item>
         <item name="android:layout_marginBottom">32dp</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:text">@string/try_again</item>
     </style>
-
 
     <style name="win_text_press">
         <item name="android:layout_width">wrap_content</item>
@@ -119,4 +116,5 @@
         <item name="android:fontFamily">@font/eb_garamond</item>
         <item name="android:textColor">@color/textWinnerColor</item>
     </style>
+
 </resources>

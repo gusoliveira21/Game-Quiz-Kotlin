@@ -9,7 +9,7 @@ import androidx.navigation.findNavController
 import com.gusoliveira21.gamequestionskotlin.R
 import com.gusoliveira21.gamequestionskotlin.databinding.FragmentOverBinding
 
-class overFragment : Fragment() {
+class OverFragment : Fragment() {
     private val binding by lazy { FragmentOverBinding.inflate(LayoutInflater.from(context)) }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
