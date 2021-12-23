@@ -5,8 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.navigation.findNavController
-import com.gusoliveira21.gamequestionskotlin.R
 import com.gusoliveira21.gamequestionskotlin.databinding.FragmentWinBinding
 
 class winFragment : Fragment() {
@@ -16,12 +16,21 @@ class winFragment : Fragment() {
         savedInstanceState: Bundle?,
     ): View? {
         listener()
+        dadoBundle()
+
         return binding.root
     }
 
     private fun listener(){
         binding.winTextMessage.setOnClickListener {
-            it.findNavController().navigate(R.id.action_winFragment_to_homeFragment)
+            it.findNavController().navigate(winFragmentDirections.actionWinFragmentToHomeFragment())
         }
     }
+
+    private fun dadoBundle(){
+        val args = winFragmentArgs.fromBundle(requireArguments())
+        Toast.makeText(context,"${args.quantidadeQuestoes}",Toast.LENGTH_LONG).show()
+    }
+
+
 }
