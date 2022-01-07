@@ -69,5 +69,115 @@
         "topic_two":"<binding>", 
         "topic_three":"<data-binding>", 
         "topic_four":"<dbinding>"
+  },
+    {
+        "question": "As interfaces Kotlin e as classes abstratas são muito semelhantes. O que a classe abstrata pode fazer e as interfaces não?",
+        "topic_one":"Apenas classes abstratas podem armazenar referência de estado.", 
+        "topic_two":"Apenas classes abstratas podem ter métodos abstratos.", 
+        "topic_three":"Apenas classes abstratas podem herdar de múltiplas superclasses.", 
+        "topic_four":"Apenas classes abstratas são herdadas por subclasses"
+  },
+  {
+        "question": "Dentro de uma função de extensão, qual é o nome da variável que corresponde ao objeto receptor?",
+        "topic_one":"A variável é nomeado esta referência.",
+        "topic_two":"A variável é chamado-lo.",
+        "topic_three":"A variável é chamada de receptor.",
+        "topic_four":"A variável é chamada de default."
+  },
+  {
+        "question": "Qual é o ponto de entrada para um aplicativo Kotlin?",
+        "topic_one":"fun main(){}",
+        "topic_two":"fun static main(){}",
+        "topic_three":"fun Main(){}",
+        "topic_four":"public static void main(){}"
+  },
+  {
+        "question": "Você está escrevendo um aplicativo de console em Kotlin que processa o teste inserido pelo usuário. Se o usuário inserir uma string vazia, o programa sai. Que tipo de loop funcionaria melhor para este aplicativo? Lembre-se de que o loop é inserido pelo menos uma vez",
+        "topic_one":"Um loop do..while",
+        "topic_two":"Um for loop",
+        "topic_three":"Um loop while",
+        "topic_four":"Um loop forEach"
+  },
+  {
+        "question": "Você está tentando atribuir uma variável Int a uma variável Long, mas o compilador Kotlin sinaliza como um erro. Por quê?",
+        "topic_one":"Não há conversão implícita de Int para Long",
+        "topic_two":"Você deve envolver todas as conversões implícitas em um bloco try / catch",
+        "topic_three":"Você só pode atribuir Longa um Int, e não o contrário",
+        "topic_four":"Todos os inteiros em Kotlin são do tipo Long"
+  },
+  {
+        "question": "A função typeChecker receiver é um parâmetro obj do tipo Any. Com base no tipo de obj, ele imprime mensagens diferentes para os tipos Int, String, Double e Float; se não for nenhum dos tipos mencionados, ele imprime “tipo desconhecido”. Qual operador permite que você determine o tipo de um objeto?",
+        "topic_one":"is",
+        "topic_two":"instanceof",
+        "topic_three":"typeof",
+        "topic_four":"as"
+  },
+  {
+        "question": "Qual linha de código mostra como exibir o comprimento de uma string anulável e mostra 0 em vez de nulo?",
+        "topic_one":"println(b?.length ?: 0)",
+        "topic_two":"println(b!!.length ?: 0)",
+        "topic_three":"println(b?.length ?? 0)",
+        "topic_four":"println(b == null? 0: b.length)"
+  },
+  {
+        "question": "Qual trecho de código mostra corretamente um loop for usando um intervalo para exibir “1 2 3 4 5 6”?",
+        "topic_one":"for(z in 1..6) print("$z ")",
+        "topic_two":"for(z in 1..7) println("$z ")",
+        "topic_three":"for(z in 1 to 6) print("$z ")",
+        "topic_four":"for(z in 1..7) print("$z ")"
+  },
+  {
+        "question": "Você está atualizando uma classe Java para Kotlin. O que você deve usar para substituir os campos static da classe Java?",
+        "topic_one":"Um objeto companheiro",
+        "topic_two":"Um objeto anônimo.",
+        "topic_three":"Uma propriedade estática.",
+        "topic_four":"Um campo de apoio."
+  },
+  {
+        "question": "Seu código precisa tentar lançar um objeto. Se a conversão não for possível, você não deseja que uma exceção seja gerada; em vez disso, deseja que null seja atribuído. Qual operador pode lançar um valor com segurança?",
+        "topic_one": "as?",
+        "topic_two": "??",
+        "topic_three":"is",
+        "topic_four":"as"
+  },
+  {
+        "question": "Qual função altera o valor do elemento na localização do iterador atual?",
+        "topic_one":"set()",
+        "topic_two":"change()",
+        "topic_three":"modify()",
+        "topic_four":"assign()"
+  },
+  {
+        "question": "Qual é a maneira correta de declarar um singleton chamado DatabaseManager?",
+        "topic_one":"object DatabaseManager {}",
+        "topic_two":"singleton DatabaseManager {}",
+        "topic_three":"static class DatabaseManager {}",
+        "topic_four":"data class DatabaseManager {}"
+  },
+  {
+        "question": "Sua função é passada por um parâmetro obj do tipo Any. Qual trecho de código mostra uma maneira de recuperar o tipo original de obj, incluindo informações do pacote?",
+        "topic_one":"obj::class",
+        "topic_two":"obj::class.simpleName",
+        "topic_three":"obj.typeInfo()",
+        "topic_four":"obj.classInfo()"
+  },
+  {
+        "question": "Qual é a declaração correta de uma matriz de inteiros com tamanho 5?",
+        "topic_one":"val arrs = IntArray(5)",
+        "topic_two":"val arrs[5]: Int",
+        "topic_three":"val arrs: Int[5]",
+        "topic_four":"val arrs = Array<Int>(5)"
+  },
+  {
+        "question": "Você criou uma classe que deve ser visível apenas para o outro código em seu módulo. Qual modificador você usa?",
+        "topic_one":"internal",
+        "topic_two":"private",
+        "topic_three":"public",
+        "topic_four":"protected"
   }
+  
+  
+  
+  
+  
 ]
