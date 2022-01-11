@@ -148,13 +148,6 @@
         "topic_four":"assign()"
   },
   {
-        "question": "Qual é a maneira correta de declarar um singleton chamado DatabaseManager?",
-        "topic_one":"object DatabaseManager {}",
-        "topic_two":"singleton DatabaseManager {}",
-        "topic_three":"static class DatabaseManager {}",
-        "topic_four":"data class DatabaseManager {}"
-  },
-  {
         "question": "Sua função é passada por um parâmetro obj do tipo Any. Qual trecho de código mostra uma maneira de recuperar o tipo original de obj, incluindo informações do pacote?",
         "topic_one":"obj::class",
         "topic_two":"obj::class.simpleName",
@@ -175,5 +168,4 @@
         "topic_three":"public",
         "topic_four":"protected"
   }
-  
 ]
