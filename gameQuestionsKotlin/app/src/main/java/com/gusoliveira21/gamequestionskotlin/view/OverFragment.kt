@@ -21,11 +21,15 @@ class OverFragment : Fragment() {
 
     private fun listener() {
         binding.btTryAgain.setOnClickListener {
-            it.findNavController().navigate(R.id.action_overFragment_to_gameFragment)
+            it.findNavController().navigate(
+OverFragmentDirections.actionOverFragmentToGameFragment()
+            )
         }
 
         binding.btToHome.setOnClickListener {
-            it.findNavController().navigate(R.id.action_overFragment_to_homeFragment)
+            it.findNavController().navigate(
+                OverFragmentDirections.actionOverFragmentToHomeFragment()
+            )
         }
     }
 }

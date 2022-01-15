@@ -1,7 +1,6 @@
 package com.gusoliveira21.gamequestionskotlin.view
 
 import android.app.ProgressDialog
-import android.app.ProgressDialog.show
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -10,14 +9,12 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.gusoliveira21.gamequestionskotlin.R
 import com.gusoliveira21.gamequestionskotlin.api.RetrofitInicializer
 import com.gusoliveira21.gamequestionskotlin.databinding.FragmentGameBinding
 import com.gusoliveira21.gamequestionskotlin.model.QuestionsKotlin
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import java.lang.Exception
 
 class GameFragment : Fragment() {
     private val binding by lazy { FragmentGameBinding.inflate(LayoutInflater.from(context)) }
@@ -41,6 +38,7 @@ class GameFragment : Fragment() {
             showLoadingDialog("Obtendo dados ...")
             getListRetrofit()
             listener()
+
         }catch (e:Exception){
             Toast.makeText(context,"Erro: $e",Toast.LENGTH_LONG).show()
         }
@@ -145,12 +143,12 @@ class GameFragment : Fragment() {
 
     private fun verificaPontuacao() {
         if(pontuacao.equals(4)) {
+            findNavController().navigate(GameFragmentDirections.actionGameFragmentToWinFragment(pontuacao-1))
             pontuacao=1
-            findNavController().navigate(R.id.action_gameFragment_to_winFragment)
         }
         else if(pontuacao.equals(0)) {
+            findNavController().navigate(GameFragmentDirections.actionGameFragmentToOverFragment())
             pontuacao=1
-            findNavController().navigate(R.id.action_gameFragment_to_overFragment)
         }
     }
 

@@ -43,6 +43,9 @@
         <action
             android:id="@+id/action_winFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
+        <argument
+            android:name="quantidadeQuestoes"
+            app:argType="integer" />
     </fragment>
     <fragment
         android:id="@+id/overFragment"

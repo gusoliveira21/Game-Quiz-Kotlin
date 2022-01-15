@@ -9,7 +9,6 @@ import com.gusoliveira21.gamequestionskotlin.databinding.FragmentAboutBinding
 class aboutFragment : Fragment() {
     private val binding by lazy { FragmentAboutBinding.inflate(LayoutInflater.from(context))}
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,savedInstanceState: Bundle?, ): View? {
-        //return binding.root
         return inflater.inflate(R.layout.fragment_about, container, false)
     }
 }
